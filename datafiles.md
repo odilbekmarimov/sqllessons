@@ -97,3 +97,4 @@ CREATE TABLE ExampleData (
     UniqueCode UNIQUEIDENTIFIER DEFAULT NEWID()
 );
 ```
+
