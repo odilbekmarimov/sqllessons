@@ -56,19 +56,6 @@ INSERT INTO Sales VALUES
 (7, '2024-01-06', 310.00, 101, 507, 'Cash');
 ```
 
-```sql
-CREATE TABLE Sales (
-    sale_id INT,
-    sale_date DATE,
-    amount DECIMAL(10,2)
-);
-
-INSERT INTO Sales VALUES
-(1, '2024-01-01', 150.00),
-(2, '2024-01-01', 200.00),
-(3, '2024-01-02', 300.00),
-(4, '2024-01-03', 400.00);
-```
 
 ### Таблица Employees
 
@@ -96,18 +83,6 @@ INSERT INTO Employees VALUES
 (5, 'Baxtiyor Sodiqov', 2800, 'Support', '2022-04-12', 'Specialist');
 ```
 
-```sql
-CREATE TABLE Employees (
-    id INT,
-    employee_name VARCHAR(100),
-    salary DECIMAL(10,2)
-);
-
-INSERT INTO Employees VALUES
-(1, 'Ali Karimov', 3000),
-(2, 'Dilshod Umarov', 3500),
-(3, 'Madina Saidova', 4200);
-```
 
 ### Таблица Orders
 
@@ -135,18 +110,6 @@ INSERT INTO Orders VALUES
 (105, '2024-01-09', 3, 105, 4, 'Cancelled');
 ```
 
-```sql
-CREATE TABLE Orders (
-    order_id INT,
-    order_date DATE,
-    employee_id INT
-);
-
-INSERT INTO Orders VALUES
-(101, '2024-01-05', 1),
-(102, '2024-01-06', 2),
-(103, '2024-01-07', 1);
-```
 
 ### Таблица Schedule
 
@@ -176,20 +139,8 @@ INSERT INTO Schedule VALUES
 ('Group B', 'Kimyo', 'R. Qodirov', 'B204', '13:00', 'Tech', 'Seminar', 75);
 ```
 
-```sql
-CREATE TABLE Schedule (
-    group_name VARCHAR(50),
-    subject VARCHAR(100),
-    teacher_name VARCHAR(100),
-    room VARCHAR(10),
-    time TIME
-);
 
-INSERT INTO Schedule VALUES
-('Group A', 'Matematika', 'X. Axmedov', 'A101', '09:00'),
-('Group B', 'Fizika', 'M. Rasulova', 'B202', '10:30'),
-('Group A', 'Ingliz tili', 'S. Jamshidov', 'A103', '12:00');
-```
+
 
 # Решения для T-SQL (VIEW и практические задачи)
 
